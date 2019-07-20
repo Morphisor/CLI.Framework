@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CLI.Framework.Startup": {
+      "commandName": "Project",
+      "commandLineArgs": "--test -t -a=\"true,2\""
+    }
+  }
+}
