@@ -7,7 +7,7 @@ namespace CLI.Framework.Startup
     {
         static void Main(string[] args)
         {
-            var commands = CmdDispatcher.FindCommandsInSameAssemblyAs(typeof(Program));
+            var commands = CmdDispatcher.FindCommandsInAllLoadedAssemblies();
             CmdDispatcher.DispatchCommands(commands, args);
         }
     }
