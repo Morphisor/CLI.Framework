@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLI.Framework.CommandDispat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.Framework.ServiceLocator", "CLI.Framework.ServiceLocator\CLI.Framework.ServiceLocator.csproj", "{1658F0D4-D46C-45E9-A3A9-7113474AA262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.Framework.Gui", "CLI.Framework.Gui\CLI.Framework.Gui.csproj", "{2AACF96A-55BD-4BFF-B53B-DF2D991AA9F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AACF96A-55BD-4BFF-B53B-DF2D991AA9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AACF96A-55BD-4BFF-B53B-DF2D991AA9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AACF96A-55BD-4BFF-B53B-DF2D991AA9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AACF96A-55BD-4BFF-B53B-DF2D991AA9F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
