@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.Framework.Startup", "CLI.Framework.Startup\CLI.Framework.Startup.csproj", "{F3CFE238-8E9D-4D08-BEE7-E820AD994BA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLI.Framework.Startup", "CLI.Framework.Startup\CLI.Framework.Startup.csproj", "{F3CFE238-8E9D-4D08-BEE7-E820AD994BA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.Framework.CommandDispatcher", "CLI.Framework.CommandDispatcher\CLI.Framework.CommandDispatcher.csproj", "{B9AD9A37-9B54-439E-9A30-4C6772E01795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLI.Framework.CommandDispatcher", "CLI.Framework.CommandDispatcher\CLI.Framework.CommandDispatcher.csproj", "{B9AD9A37-9B54-439E-9A30-4C6772E01795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.Framework.ServiceLocator", "CLI.Framework.ServiceLocator\CLI.Framework.ServiceLocator.csproj", "{1658F0D4-D46C-45E9-A3A9-7113474AA262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B9AD9A37-9B54-439E-9A30-4C6772E01795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AD9A37-9B54-439E-9A30-4C6772E01795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AD9A37-9B54-439E-9A30-4C6772E01795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1658F0D4-D46C-45E9-A3A9-7113474AA262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
